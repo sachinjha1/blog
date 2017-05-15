@@ -363,6 +363,14 @@ a:hover, a:active, a:focus {
   height: 100vh;
 }
 
+#home .home-img-1 {
+  background: url('../images/home-img-1.jpg') no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100vh;
+}
+
 #home .home-thumb {
   display: -webkit-box;
   display: -webkit-flex;
@@ -384,6 +392,10 @@ a:hover, a:active, a:focus {
 
 #about .about-img {
     background: url('../images/about-img.jpg') no-repeat;
+}
+
+#about .run-img {
+    background: url('../images/run.jpg') no-repeat;
 }
 
 #about .about-thumb,
@@ -534,6 +546,11 @@ a:hover, a:active, a:focus {
 
 #contact .contact-img {
   background: url('../images/contact-img.jpg') no-repeat;
+  min-height: 75vh;
+}
+
+#contact .vr-img {
+  background: url('../images/vr.jpg') no-repeat;
   min-height: 75vh;
 }
 
